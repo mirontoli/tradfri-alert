@@ -27,3 +27,8 @@ Run the server and ngrok
 python3 server.py &
 ~/ngrok http 192.168.0.193:8000 -region eu > /dev/null &
 ```
+On your computer navigate to ngrok web interface (`192.168.0.193:4040` in my case), copy the public https address, try it with curl:
+```bash
+curl -d '' https://0ec6f40b50a6.eu.ngrok.io/
+```
+When done, register that webhook url in your alert setup.
