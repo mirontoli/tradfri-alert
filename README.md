@@ -27,6 +27,3 @@ Run the server and ngrok
 python3 server.py &
 ~/ngrok http 192.168.0.193:8000 -region eu > /dev/null &
 ```
-
-# Contributing
-Please, submit a Pull Request if you want to contribute.
