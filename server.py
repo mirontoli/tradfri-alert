@@ -26,6 +26,11 @@ def flash():
     time.sleep(0.5)
     os.system(cmd0)
     time.sleep(0.5)
+    os.system(cmd1)
+    time.sleep(0.5)
+    os.system(cmd0)
+    time.sleep(0.5)
+    os.system(cmd1)
 
 class MyServer(BaseHTTPRequestHandler):
     def do_HEAD(self):
