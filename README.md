@@ -24,7 +24,7 @@ echo "web_addr: 192.168.0.193:4040" >> ~/.ngrok2/ngrok.yml
 
 Run the server and ngrok
 ```bash
-python3 server.py &
+nohup python3 server.py &
 ~/ngrok http 192.168.0.193:8000 -region eu > /dev/null &
 ```
 On your computer navigate to ngrok web interface (`192.168.0.193:4040` in my case), copy the public https address, try it with curl:
