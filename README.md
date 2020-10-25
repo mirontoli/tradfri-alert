@@ -1,7 +1,8 @@
 # Trådfri Alert
 This simple web application serves as a webhook and flashes an IKEA Smart bulb. Use the webhook for any alert. This application is mainly designed for Raspberry Pi Zero W.
 
-I'll provide the link to a blog post about it.
+The blog post:
+* [Flashing Trådfri lights on Azure Alerts](https://chuvash.eu/2020/10/21/flashing-tradfri-lights-on-azure-alerts/)
 
 # Prerequisites
 * IKEA Smart Bulb, remote and a gateway
